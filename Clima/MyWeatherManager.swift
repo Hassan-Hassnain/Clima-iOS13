@@ -69,24 +69,6 @@ struct MyWeatherManager {
             return nil
         }
     }
-    ///==========================================================================================================================================
-    // For testing purpose
-    func printWeatherContent(_ data: WeatherData) {
-        print(data.name)
-        print(data.main.temp)
-        print(data.main.pressure)
-        print(data.main.humidity)
-        print(data.main.temp_max)
-        print(data.main.temp_min)
-        print(data.visibility)
-        print(data.weather[0].description)
-        print(data.weather[0].id)
-        print(data.weather[0].icon)
-        print(data.weather[0].main)
-        
-    }
-    ///==========================================================================================================================================
-    
 }
 /*
  1. First of all create a url string and save it in String type variable
